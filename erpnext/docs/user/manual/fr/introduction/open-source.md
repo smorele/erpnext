@@ -1,19 +1,18 @@
-The source code is an Open Source software. It is open for anyone to
-understand, extend or improve. And it is free!
+Le code source est disponible. Tout le monde peut le lire, l'étendre ou améliorer. Et c'est gratuit!
 
-Advantages of an Open Source software are:
+Les avantages d'un logiciel Open Source sont:
 
-  1. You can choose to change your service provider anytime.
-  2. You can host the application anywhere, including your own server to gain complete ownership and privacy of the data.
-  3. You can access a community to support you, incase you need help. You are not dependant on your service provider.
-  4. You can benefit from using a product that is critiqued and used by a wide range of people, who have reported hundreds of issues and suggestions to make this product better, and this will always continue.
+  1. Vous pouvez changer de prestataire de services quand vous voulez.
+  2. Vous pouvez héberger l'application où bon vous semble, même sur votre propre serveur pour maitriser totalement la propriété et la confidentialité de vos données.
+  3. Vous accédez à une communauté pour vous assister, si vous avez besoin d'aide. Vous n'êtes pas dépendant de votre prestataire de services.
+  4. Vous bénficier d'un produit utilisé par un grand nombre de personnes qui ont rapporté des centaines de problèmes, fait des propositions d'améliorations et ca continuera.
 
 
 ---
 
-### ERPNext Source Code
+### Le code source d'ERPNext
 
-ERPnext source repository is hosted at GitHub and can be found here
+Le code source d'ERPnext est hébérgé sur GitHub et peut être trouvé à cette adresse
 
 - [https://github.com/frappe/erpnext](https://github.com/frappe/erpnext)
 
@@ -22,12 +21,12 @@ ERPnext source repository is hosted at GitHub and can be found here
 
 ### Alternatives
 
-There are many Open Source ERPs you can consider. Popular ones are:
+Il y a d'autres ERPs Open Source, les plus populaires sont:
 
   1. Odoo
   2. OpenBravo
   3. Apache OfBiz
   4. xTuple
-  5. Compiere (and forks)
+  5. Compiere (et dérivés)
 
 {next}
