@@ -1,32 +1,34 @@
-Before you start managing your Operations in EPRNext, you must first become
-familiar with the system and the terms used. For this we recommend
-implementation should happen in two phases.
+Avant de commencer à gérer vos opérations dans EPRNext, vous devez avant tout devenir familier avec le système et les
+termes utilisés. Pour cela, nous recommandons une implémentation en deux phases.
 
-  * A **Test Phase**, where you enter dummy records representing your day to day transactions and a **Live Phase**, where we start entering live data.
+  * Une **Phase de Test**, où vous enregistrez des données fictives et une **Phase Réelle**, où vous saisissez vos véritables données.
 
-### Test Phase
+### La phase de test
 
-  * Read the Manual
-  * Create a free account at [https://erpnext.com](https://erpnext.com) (the easiest way to experiment).
-  * Create your first Customer, Supplier and Item. Add a few more so you get familiar with them.
-  * Create Customer Groups, Item Groups, Warehouses, Supplier Groups, so that you can classify your Items.
-  * Complete a standard sales cycle - Lead > Opportunity > Quotation > Sales Order > Delivery Note > Sales Invoice > Payment (Journal Entry)
-  * Complete a standard purchase cycle - Material Request > Purchase Order > Purchase Receipt > Payment (Journal Entry).
-  * Complete a manufacturing cycle (if applicable) - BOM > Production Planning Tool > Production Order > Material Issue
-  * Replicate a real life scenario into the system.
-  * Create custom fields, print formats etc as required.
+  * Lisez le manuel
+  * Créez un compte gratuit sur [https://erpnext.com](https://erpnext.com) (La facon la plus rapide d'expérimenter).
+  * Créez votre premier client, fournisseur et produit. Ajoutez-en un peu plus pour vous familiariser.
+  * Créez des groupes de clients, des groupes de produits, des entrepôts, des groupes de fournisseurs comme ca, vous 
+  pouvez classez vos articles.
+  * Completez un cycle de vente complet - Prospect > Opportunité > Devis > Bon de commande > Note de livraison > Facture > Paiement (Journal des écritures)
+  * Completez un cycle standard d'achat - Besoin de materiel > Ordre d'achat > Reception > Paiement (Journal des entrées).
+  * Completez un cycle de fabrication (si nécessaire) - Ordre de fabrication > Planification de la production > Ordre de production > Materiel fabriqué
+  * Reproduisez un scénario réel de la vie dans le système.
+  * Créez des champs personnels, des formats d'impressions, etc.
 
-### Live Phase
+### La phase réelle
 
-Once you are familiar with ERPNext, start entering your live data!
+Une fois que vous êtes familier avec ERPNext, commencez à entrer de véritables données!
 
-  * Clean up the account of test data or better, start a fresh install.
-  * If you just want to clear your transactions and not your master data like Item, Customer, Supplier, BOM etc, you can click delete the transactions of your Company and start fresh. To do so, open the Company Record via Setup > Masters > Company and delete your Company's transactions by clicking on the **Delete Company Transactions** button at the bottom of the Company Form.
-  * You can also setup a new account at [https://erpnext.com](https://erpnext.com), and use the 30-day free trial. [Find out more ways of deploying ERPNext](/introduction/getting-started-with-erpnext)
-  * Setup all the modules with Customer Groups, Item Groups, Warehouses, BOMs etc.
-  * Import Customers, Suppliers, Items, Contacts and Addresses using Data Import Tool.
-  * Import opening stock using Stock Reconciliation Tool.
-  * Create opening accounting entries via Journal Entry and create outstanding Sales Invoices and Purchase Invoices.
-  * If you need help, [you can buy support](https://erpnext.com/pricing) or [ask in the user forum](https://discuss.erpnext.com).
+  * Nettoyez vos données de test ou mieux, partez d'une nouvelle installation.
+  * Si vous voulez unqiuement supprimer vos transactions mais pas les données comme les produits, les clients,
+  les fournisseurs etc., vous pouvez uniquement supprimer les transactions de votre compagnie. Pour se faire, ouvrez 
+  l'enregistrement de la compagnie via  Setup > Masters > Company et supprimez les transactions de votre compagnie en cliquant sur le bouton **Delete Company Transactions** en bas du formulaire.
+  * Vous pouvez aussi configurer un nouveau comptesur [https://erpnext.com](https://erpnext.com), et utiliser les 30 jours d'essai gratuits. [En savoir plus sur les moyens de déployer ERPNext](/introduction/getting-started-with-erpnext)
+  * Configurez tous les modules avec les groupes de clients, les groupes de produits, les entrepots, etc.
+  * Importez les clients, fournisseurs, produits, contacts et adresses en utilisant l'outil d'import.
+  * Importez votre stocks d'ouverture en utilisant l'outil de reconciliation du stock.
+  * Créer vos comptes et créez les factures d'achats et de ventes.
+  * Si vous avez besoin d'aide, [vous pouvez acheter du support](https://erpnext.com/pricing) ou [demander sur le forum](https://discuss.erpnext.com).
 
-{next}
+{suite}
