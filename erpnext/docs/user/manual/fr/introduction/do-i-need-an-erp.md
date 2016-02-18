@@ -16,4 +16,4 @@ de bénéfices bien au delà la gestion de compte classique des ERP traditionnel
   * **Plus facile à utiliser:** Les interfaces web modernes laisseront vos utilisateurs dans un monde qu'ils connaissent déjà.
   * **Open Source :** Ce logiciel est gratuit et hebergeable ou bon vous semble.
 
-{next}
+{suite}
