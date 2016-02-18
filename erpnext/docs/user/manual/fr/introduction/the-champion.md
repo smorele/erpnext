@@ -1,46 +1,41 @@
 <!-- no-heading -->
 
-<h1 class="white">The Champion</h1>
+<h1 class="white">Le Champion</h1>
 
 <img class="cover" src="{{docs_base_url}}/assets/old_images/erpnext/implementation-image.png">
 
-We have seen dozens of ERP implementations over the past few years and we
-realize that successful implementation is a lot about intangibles and
-attitude.
+Nous avons vu des dizaines d'implementations d'ERPs ces dernières années et nous nous apercevons que la mise en oeuvre 
+correcte depend pour beaucoup de choses impalpables et de l'attitude.
 
-**ERPs are not required.**
+**Les ERPS ne sont pas obligatoires.**
 
-Like exercise.
+Comme le sport.
 
-Human body may seem like it does not require exercise today or even tomorrow,
-but in the long run, if you wish to maintain your body and its health, you
-should get on the treadmill.
+Le corps humain n'a pas forcemment besoin de sport aujourd'hui ni même demain, mais à long terme, si vous voulez vous 
+maintenir en bonne santé, vous devriez investir dans un tapis roulant.
 
-In the same way, ERPs improve the health of your organization over a long run
-by keeping it fit and efficient. The more you delay putting things in order,
-the more time you lose, and the closer you get to a major disaster.
+Dans la meme idée, les ERPs améliorent la santé de votre entreprise sur le long terme en la gardant en forme et efficace. 
+Plus vous passez de temps à tenter d'organiser des choses, plus vous perdez de temps et donc plus vous vous approchez
+du dessastre.
 
-So when you start implementing an ERP, keep your sight on the long term
-benefits. Like exercise, its painful in the short run, but will do wonders if
-you stay on course.
+Donc, quand vous commencez à implémenter un ERP, voyez les objectifs sur le long terme. Comme le sport, c'est fatiguant 
+pendant l'exercice mais ca fera des miracles sur la durée.
 
 * * *
 
-## The Champion
+## Le champion
 
-ERP means organization wide change and it does not happen without effort.
-Every change requires a champion and it is the duty of the champion to
-organize and energize the entire team towards implementation. The champion
-needs to be resilient incase something goes wrong .
+ERP signifie pour une entreprise un grand changement et ca ne se fait pas sans effort.
+Chaque changement necessite un champion et c'est son devoir d'organiser et de dynamiser l'équipe autour de 
+de la mise en place de l'ERP. Le champion doit rester resistant dans le cas ou quelque chose venait à mal se passer.
 
-In many organizations we have seen, the champion is most often the owner or a
-senior manager. Occasionally, the champion is an outsider who is hired for a
-particular purpose.
+Dans beaucoup d'organisations que nous avons vu, le champion est bien souvent le gérant ou un senior manager.
+Plus rarement, le champion est une personne exterieure, missionnée pour cette tache précise.
 
-In either case, you must identify your champion first.
+Dans tous les cas, il vous faut trouver votre champion.
 
-Most likely it's **you!**
+Le plus probable c'est que ce soit **vous!**
 
-Lets Begin!
+Allons-y!
 
-{next}
+{suite}
