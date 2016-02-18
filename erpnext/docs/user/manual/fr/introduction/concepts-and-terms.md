@@ -1,76 +1,71 @@
-Before you start implementation, lets get familiar with the terminology that
-is used and some basic concepts in ERPNext.
+Avant de commencer l'implémentation, familiarisons nous avec la terminologie utilisée et quelques concept d'ERPNext.
 
 * * *
 
-### Basic Concepts
+### Concepts de base
 
-#### Company
+#### Compagnie
 
-This represents the Company records for which ERPNext is setup. With this same
-setup, you can create multiple Company records, each representing a different
-legal entity. The accounting for each Company will be different, but they will
-share the Customer, Supplier and Item records.
+Représente la compagnie pour laquelle ERPNext est configuré. Avec la même configuration, vous pouvez créer plusieurs 
+enregistrements de compagnie chacune représentant une entité légale. La comptabilité de chaque compagnie va être différente
+mais elles partageront les mêmes client, fournisseurs et enregistrement@.
 
 > Setup > Company
 
-#### Customer
+#### Client
 
-Represents a customer. A Customer can be an individual or an organizations.
-You can create multiple Contacts and Addresses for each Customer.
+Représente un client. Un client peut etre où un individu ou une organisation.
+Vous pouvez créer de multiples contacts et adresses pour chaque client.
 
 > Selling > Customer
 
-#### Supplier
+#### Fournisseur
 
-Represents a supplier of goods or services. Your telephone company is a
-Supplier, so is your raw materials Supplier. Again, a Supplier can be an
-individual or an organization and has multiple Contacts and Addresses.
+Représente un fournisseur de biens ou de services. Votre compagnie de téléphone est un fournisseur, donc il est votre 
+fournisseur de matières premieres. Ici encore, un fournisseur peut être où un individu ou une organisation et avoir 
+plusieurs contacts et adresses.
 
 > Buying > Supplier
 
-#### Item
+#### Produit
 
-A Product, sub-product or Service that is either bought, sold or manufactured
-and is uniquely identified.
+Un produit, un sous-produit ou un service qui peut être vendu, acheté, fabriqué, ou simplement identifié.
 
 > Stock > Item
 
-#### Account
+#### Compte
 
-An Account is a heading under which financial and business transactions are
-carried on. For example, “Travel Expense” is an account, “Customer Zoe”,
-“Supplier Mae” are accounts. ERPNext creates accounts for Customers and
-Suppliers automatically.
+Un compte est une rubrique dans laquelle les transactions financières et commerciales sont
+exploitée. Par exemple, “frais de voyage” est un compte, “client Zoe”,
+“fournisseur Mae” sont des comptes. ERPNext créer des comptes pour les clients et les fournisseurs automatiquement.
 
 > Accounts > Chart of Accounts
 
-#### Address
+#### Adresse
 
-An address represents location details of a Customer or Supplier. These can be
-of different locations such as Head Office, Factory, Warehouse, Shop etc.
+Une adresse représente le détail d'emplacement d'un client ou d'un fournisseur. Elles peuvent être différents comme par 
+exemple pour le bureau, l'usine, l'entrepot, le magasin, etc.
 
 > Selling > Address
 
 #### Contact
 
-An individual Contact belongs to a Customer or Supplier or is just an
-independent. A Contact has a name and contact details like email and phone
-number.
+Un contact appartient à un client, un fournisseur ou est indépendant. Un contact a un nom et des coordonnées comme 
+l'email et le numéro de téléphone.
 
 > Selling > Contact
 
 #### Communication
 
-A list of all Communication with a Contact or Lead. All emails sent from the
-system are added to the Communication table.
+Une liste de toutes les échanges avec un contact ou un prospect. Tous les emails envoyés depuis le systeme sont ajoutés
+au tableau de communication.
 
 > Support > Communication
 
-#### Price List
+#### Liste de prix
 
-A Price List is a place where different rate plans can be stored. It’s a name
-you give to a set of Item Prices stored under a particular List.
+Une liste de prix est l'endroit où sont stockés les différentes tarifications. C'est un nom donné à un ensemble de prix de produits
+stockés dans une liste particulière.
 
 > Selling > Price List
 
@@ -79,92 +74,86 @@ you give to a set of Item Prices stored under a particular List.
 
 * * *
 
-### Accounting
+### Comptabilité
 
-#### Fiscal Year
+#### Année fiscale
 
-Represents a Financial Year or Accounting Year. You can operate multiple
-Fiscal Years at the same time. Each Fiscal Year has a start date and an end
-date and transactions can only be recorded in this period. When you “close” a
-fiscal year, it's balances are transferred as “opening” balances for the next
-fiscal year.
+Représente une année fiscale ou une année compatable. Vous pouvez utiliser plusieurs années fiscales en même temps. Chaque
+année fiscala a une date de départ et une date de fin et les transactions peuvent être enregistrées seulement dans cette 
+période. Quand vous fermez une année fiscale les soldes sont transférés dans les soldes "d'ouverture" de la prochaine année
+fiscale.
 
 > Setup > Company > Fiscal Year
 
-#### Cost Center
+#### Centre de coût
 
-A Cost Center is like an Account, but the only difference is that its
-structure represents your business more closely than Accounts.
-For example, in your Chart of Accounts, you can separate your expenses by its type 
-(i.e., travel, marketing, etc.). In your Chart of Cost Centers, you can separate 
-them by product line or business group (e.g., online sales, retail sales, etc.).
+Un centre de coût est comme un compte, mais la seule différence c'est que la structure réprésente au plus près votre 
+entreprise.
+Par exemple, dans le plan comptable, vous pouvez séparer vos dépenses par leurs types (voyage, marketing, etc.). Dans
+le centre de coût, vous pouvez les séparer par produit ou group (vente en ligne, vente au détail, etc.)
 
 > Accounts > Chart of Cost Centers
 
-#### Journal Entry
+#### Journal des écritures
 
-A document that contains General Ledger (GL) entries and the sum of Debits and
-Credits of those entries is the same. In ERPNext you can update Payments,
-Returns, etc., using Journal Entrys.
+Un document qui contient les entrées du Grand Livre (GL) ainsi que la somme des débits et des credits de ces entrées. Dans 
+ERPNext vous pouvez mettre à jour les paiements, les retours, etc., en utilisant les entrées de ce journal.
 
 > Accounts > Journal Entry
 
-#### Sales Invoice
+#### Facture de vente
 
-A bill sent to Customers for delivery of Items (goods or services).
+Une facture envoyée aux clients pour la livraison d'articles achetés (produits ou services).
 
 > Accounts > Sales Invoice
 
-#### Purchase Invoice
+#### Facture d'achat
 
-A bill sent by a Supplier for delivery of Items (goods or services).
+Une facture envoyée par le fournisseur pour la livraison des produits commandés (produits ou services).
 
 > Accounts > Purchase Invoice
 
-#### Currency
+#### Devise
 
-ERPNext allows you to book transactions in multiple currencies. There is only
-one currency for your book of accounts though. While posting your Invoices with
-payments in different currencies, the amount is converted to the default
-currency by the specified conversion rate.
+ERPNext vous permet d'enregistrer des transactions dans plusieurs devises. Il n'y a qu'une seule devise pour votre livre 
+de comptes. Si vous entrez vos factures avec des paiements dans différentes devises, le montant en fonction du taux
+de conversion indiqué dans la devise est converti.
 
 > Setup > Currency
 
 * * *
 
-### Selling
+### Vente
 
-#### Customer Group
+#### Groupe de clients
 
-A classification of Customers, usually based on market segment.
+Une classification des clients, en général basée sur un segment de marché.
 
 > Selling > Setup > Customer Group
 
-#### Lead
+#### Piste
 
-A person who could be a future source of business. A Lead may generate
-Opportunities. (from: “may lead to a sale”).
+Une personne qui peut être une future source d'affaires. Une piste peut générer des opprtunités. (de: “peut conduire à une vente”).
 
 > Selling > Lead
 
-#### Opportunity
+#### Opportunité
 
-A potential sale. (from: “opportunity for a business”).
+Une potentielle vente. (de: “opportunité pour une affaire”).
 
 > Selling > Opportunity
 
-#### Sales Order
+#### Commande client
 
-A note confirming the terms of delivery and price of an Item (product or
-service) by the Customer. Deliveries, Production Orders and Invoices are made
-on basis of Sales Orders.
+un document qui valide les terme de la livraison et le prix d'un article (produit ou service) par le client. Les 
+livraisons, les ordres de production et les factures sont créées.
 
 > Selling > Sales Order
 
-#### Territory
+#### Territoire
 
-A geographical area classification for sales management. You can set targets
-for Territories and each sale is linked to a Territory.
+Une classification des zones géographiques pour la gestion des ventes. Vous pouvez définir des cibles pour les 
+térritoires et chaque vente est liée au térritoire.
 
 > Selling > Setup > Territory
 
@@ -388,35 +377,34 @@ ERPNext.
 
 ### Setup / Customization
 
-#### Custom Field
+#### Champs personnalisé
 
-A user defined field on a form / table.
+Un champ définit par un utilisateur dans un formulaire ou un tableau.
 
 > Setup > Customize ERPNext > Custom Field
 
-#### Global Defaults
+#### Valeurs par défaut
 
-This is the section where you set default values for various parameters of the
-system.
+C'est la section ou vous definissez les valeurs par défaut pour divers paramètres du système.
 
 > Setup > Data > Global Defaults
 
-#### Print Heading
+#### Entête d'impression
 
-A title that can be set on a transaction just for printing. For example, you
-want to print a Quotation with a title “Proposal” or “Pro forma Invoice”.
+Un titre que vous pouvez définir sur une transaction uniquement pour l'impression. Par exemple vous pouvez imprimer un 
+devis avec comme titre "Proposition" ou "Facture Pro forma".
 
 > Setup > Branding and Printing > Print Headings
 
-#### Terms and Conditions
+#### Conditions d'utilisation
 
-Text of your terms of contract.
+Description des terms de votre contrat.
 
 > Selling > Setup > Terms and Conditions
 
-#### Unit of Measure (UOM)
+#### Unités de mesures
 
-How quantity is measured for an Item. E.g., Kg, No., Pair, Packet, etc.
+Comment les quantités sont mesurées. Ex., Kg, No., etc.
 
 > Stock > Setup > UOM
 
