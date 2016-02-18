@@ -1,14 +1,14 @@
-# Flow Chart Of Transactions In ERPNext
+# Organigramme de transactions dans ERPNext
 
-This diagram covers how ERPNext tracks your company information across key
-functions. This diagram does not cover all the features of ERPNext.
+Ce schema illustre la facon dont ERPNext organise les données de votre entreprise. Ce schema ne couvre pas la totalité 
+des fonctionnalités d'ERPNext.
 
 ![]({{docs_base_url}}/assets/old_images/erpnext/overview.png)
 
 
-[Full Resolution]({{docs_base_url}}/assets/old_images/erpnext/overview.png)
+[Pleine Resolution]({{docs_base_url}}/assets/old_images/erpnext/overview.png)
 
-_Note: Not all of the steps are mandatory. ERPNext allows you to freely skip
-steps if you want to simplify the process._
+_Note: Toutes les remarques ne sont pas obligatoires. ERPNext vous permet de vous passer d'étapes si vous voulez 
+simplifier le processus._
 
-{next}
+{suite}
