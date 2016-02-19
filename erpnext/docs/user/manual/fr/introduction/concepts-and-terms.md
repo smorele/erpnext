@@ -6,7 +6,7 @@ Avant de commencer l'implémentation, familiarisons nous avec la terminologie ut
 
 #### Compagnie
 
-Représente la compagnie pour laquelle ERPNext est configuré. Avec la même configuration, vous pouvez créer plusieurs 
+Représente l'entreprise pour laquelle ERPNext est configuré. Avec la même configuration, vous pouvez créer plusieurs 
 enregistrements de compagnie chacune représentant une entité légale. La comptabilité de chaque compagnie va être différente
 mais elles partageront les mêmes client, fournisseurs et enregistrement@.
 
@@ -256,120 +256,113 @@ Classification d'un article.
 
 * * *
 
-### Human Resource Management
+### Ressources humaines
 
-#### Employee
+#### Employé
 
-Record of a person who has been in present or past, in the employment of the
-company.
+Enregistrement d'une personne qui est ou a été dans les effectifs de l'entreprise.
 
 > Human Resources > Employee
 
-#### Leave Application
+#### Demande de congé
 
-A record of an approved or rejected request for leave.
+Enregistrement d'une demande de congé, approuvée ou non.
 
 > Human Resource > Leave Application
 
-#### Leave Type
+#### Type de congé
 
-A type of leave (e.g., Sick Leave, Maternity Leave, etc.).
+Un type de congé (ex., congé maladie, congé maternité, etc.).
 
 > Human Resource > Leave and Attendance > Leave Type
 
-#### Process Payroll
+#### Gestion des paies
 
-A tool that helps in creation of multiple Salary Slips for Employees.
+Un outil qui aide à la création de bulletins de paie pour les salariés.
 
 > Human Resource > Salary and Payroll > Process Payroll
 
-#### Salary Slip
+#### Bulletin de paie
 
-A record of the monthly salary given to an Employee.
+Enregistrement du salaire mensuel d'un employé.
 
 > Human Resource > Salary Slip
 
-#### Salary Structure
+#### Structure du salaire
 
-A template identifying all the components of an Employees' salary (earnings), 
-tax and other social security deductions.
+Un modèle de définition des composants du salaire d'un employé comme les taxes ou autres déductions de la sécurité sociale. 
 
 > Human Resource > Salary and Payroll > Salary Structure
 
-#### Appraisal
+#### Evaluation
 
-A record of the performance of an Employee over a specified period based on
-certain parameters.
+Enregistrement de la performance d'un employé sur une période bassée sur certains critères.
 
 > Human Resources > Appraisal
 
-#### Appraisal Template
+#### Modèle d'évaluation
 
-A template recording the different parameters of an Employees' performance and
-their weightage for a particular role.
+Un modèle qui présente les différents paramètres pris en compte dans l'évaluation de la performance d'un employé et leur 
+coéfficient pour un rôle particulier.
 
 > Human Resources > Employee Setup > Appraisal Template
 
-#### Attendance
+#### Présence
 
-A record indicating presence or absence of an Employee on a particular day.
+Enregistrement qui indique la présence ou l'absence d'un employé pour un jour donné.
 
 > Human Resources > Attendance
 
 * * *
 
-### Manufacturing
+### Fabrication
 
-#### Bill of Materials (BOM)
+#### Numenclature
 
-A list of Operations and Items with their quantities, that are required to
-produce another Item. A Bill of Materials (BOM) is used to plan purchases and
-do product costing.
+Une liste des opération et des produits avec leurs quantités qui sont requis pour la création d'un autre produit.
+Une nomenclature est utilisée pour planifier les achats et évaluer le cout du produit.
 
 > Manufacturing > BOM
 
-#### Workstation
+#### Station de travail
 
-A place where a BOM operation takes place. It is useful to calculate the
-direct cost of the product.
+Un endroit ou les opérations de la nomenclature sont réalisées. C'est utile pour calculer le coût directe d'un produit.
 
 > Manufacturing > Workstation
 
-#### Production Order
+#### Ordre de production
 
-A document signaling production (manufacture) of a particular Item with
-specified quantities.
+Document qui demande la production d'un article particulier avec la quantité spécifiée.
 
 > Manufacturing > Production Order
 
-#### Production Planning Tool
+#### Outil de planing de production
 
-A tool for automatic creation of Production Orders and Purchase Requests based
-on Open Sales Orders in a given period.
+Un outil pour la creation automatique d'ordres de productions et demandes basée sur les vente en cours sur une période 
+donnée.
 
 > Manufacturing > Production Planning Tool
 
 * * *
 
-### Website
+### Site internet
 
-#### Blog Post
+#### Article de blog
 
-A short article that appears in the “Blog” section of the website generated
-from the ERPNext website module. Blog is a short form of “Web Log”.
+Un court article qui apparait dans la section "Blog" du site généré par le module site internet d'ERPNext. Blog est la 
+version courte de “Web Log”.
 
 > Website > Blog Post
 
-#### Web Page
+#### Page web
 
-A web page with a unique URL (web address) on the website generated from
-ERPNext.
+Une page web avec une unique adresse (adresse web) sur le site internet généré par ERPNext.
 
 > Website > Web Page
 
 * * *
 
-### Setup / Customization
+### Configuration / Customisation
 
 #### Champs personnalisé
 
@@ -379,14 +372,14 @@ Un champ définit par un utilisateur dans un formulaire ou un tableau.
 
 #### Valeurs par défaut
 
-C'est la section ou vous definissez les valeurs par défaut pour divers paramètres du système.
+C'est la section où vous definissez les valeurs par défaut pour divers paramètres du système.
 
 > Setup > Data > Global Defaults
 
 #### Entête d'impression
 
 Un titre que vous pouvez définir sur une transaction uniquement pour l'impression. Par exemple vous pouvez imprimer un 
-devis avec comme titre "Proposition" ou "Facture Pro forma".
+devis avec comme titre "Proposition" ou "Devis Pro forma".
 
 > Setup > Branding and Printing > Print Headings
 

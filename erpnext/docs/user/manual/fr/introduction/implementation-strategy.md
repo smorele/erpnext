@@ -23,7 +23,7 @@ Une fois que vous êtes familier avec ERPNext, commencez à entrer de véritable
   * Nettoyez vos données de test ou mieux, partez d'une nouvelle installation.
   * Si vous voulez unqiuement supprimer vos transactions mais pas les données comme les produits, les clients,
   les fournisseurs etc., vous pouvez uniquement supprimer les transactions de votre compagnie. Pour se faire, ouvrez 
-  l'enregistrement de la compagnie via  Setup > Masters > Company et supprimez les transactions de votre compagnie en cliquant sur le bouton **Delete Company Transactions** en bas du formulaire.
+  l'enregistrement de l'entreprise via  Setup > Masters > Company et supprimez les transactions de votre compagnie en cliquant sur le bouton **Delete Company Transactions** en bas du formulaire.
   * Vous pouvez aussi configurer un nouveau comptesur [https://erpnext.com](https://erpnext.com), et utiliser les 30 jours d'essai gratuits. [En savoir plus sur les moyens de déployer ERPNext](/introduction/getting-started-with-erpnext)
   * Configurez tous les modules avec les groupes de clients, les groupes de produits, les entrepots, etc.
   * Importez les clients, fournisseurs, produits, contacts et adresses en utilisant l'outil d'import.
