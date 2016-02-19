@@ -1,13 +1,13 @@
-# Step 2: Currency and Timezone
+# Etape 2: Devise et fuseau horaire
 
-Set your country name, currency and timezone.
+Renseignez votre pays, la devise et le fuseau horaire.
 
 <img alt="Currency" class="screenshot" src="{{docs_base_url}}/assets/img/setup-wizard/step-2.png">
 
 ---
 
-### Default Currency
+### Devise par défaut
 
-For most countries, your currency and timezone will be automatically set
+Pour la plupart des pays, la devise et le fuseau horaire seront automatiquement définis.
 
-{next}
+{suite}
