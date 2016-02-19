@@ -1,13 +1,11 @@
-# Setting Up
+# Configuration
 
-Setting up an ERP system is like starting your business all over again,
-although in the virtual world. Thankfully it is not as hard as the real
-business and you get to do a trial too!
+Configurer un ERP c'est comme repenser votre entreprise mais dans un environnement virtuel. Heureusement ce n'est pas
+aussi dur que dans la vie réelle et vous pouvez aussi vous exercer.
 
-Implementation requires the implementer to take a step back and set aside some
-time to do this right. This is usually not a couple-of-hours, after-work kind
-of a project.
+La mise en oeuvre nécessite que l'executant prenne un peu de recul et mette du temps de coté pour faire les choses 
+correctement. Genéralement, quelques heures ne suffiront pas, ce n'est pas un projet que l'on fait en sortant du travail.
 
-### Topics
+### Sujets
 
 {index}
