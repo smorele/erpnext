@@ -1,24 +1,25 @@
-# Step 5: Letterhead and Logo
+# Etape 5: Entête et logo
 
-Attach Company Letterhead and Company Logo.
+Attachez à votre entreprise un entête et un logo.
 
 <img alt="Company Logo and Letterhead" class="screenshot"
 src="{{docs_base_url}}/assets/img/setup-wizard/step-5.png">
 
 ---
 
-### Letterhead
+### Entête
 
-A letterhead is the heading at the top of a sheet of letter paper (stationery). That heading usually consists of a name and an address, and a logo or corporate design.
+Un entête est l'inscription en haut des feuilles de papier. Cet entête contient en général un nom, une adresse et un logo.
 
-Click on the box ‘Attach Letterhead’ . Select the image file from the place it is stored and click enter.
+Cliquez sur le bouton ‘Attach Letterhead’ . Selectionnez l'image et validez.
 
-You may choose to skip this step if your letterhead is not ready.
+Vous pouvez choisir de passer cette étape sur votre entête n'est pas prêt.
 
-To select letterhead later through the setup module, read [Letter-head]({{docs_base_url}}/user/manual/en/setting-up/print/letter-head.html)
+Pour selectionner un entête plus tard, lisez [entête]({{docs_base_url}}/user/manual/fr/setting-up/print/letter-head.html)
 
-#### To "attach as web-link"
+#### Attacher un lien
 
-For any attachments in ERPNext, you can also attach as a web-link. If you are using other tools like Dropbox or Google Docs to manage your files, you can set its public link.
+Pour toutes les pièces jointes dans ERPNext, vous pouvez également joindre un lien internet. Si vous utilisez d'autres 
+outils tels que Dropbox ou Google Docs pour gérer vos fichiers, vous pouvez définir son lien public.
 
-{next}
+{suite}
