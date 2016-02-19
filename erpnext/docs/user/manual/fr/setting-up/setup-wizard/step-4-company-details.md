@@ -1,22 +1,25 @@
-# Step 4: Company Details
+# Etape 4: Details de l'entreprise
 
-Enter Company Details like Name, Abbreviation and Financial Year Details.
+Saisissez les details de l'entreprise comme son nom, une abbreviation et les détails de l'année fiscale.
 
 <img alt="Company Details" class="screenshot"
 src="{{docs_base_url}}/assets/img/setup-wizard/step-4.png">
 
 ---
 
-### Company Abbreviation
+### Initiales de l'entreprise
 
-These will be appened to your **Account** Heads, for example if your abbreviation is **WP**, then your Sales account will be **Sales - WPL**
+Elle apparaitra dans l'entête des **comptes**. Par exemple si vos initiales sont **WPL**, alors votre compte de vente 
+sera **Vente - WPL**
 
-For Example: East Wind will be abbreviated as EW. Shades of Green will be abbreviated as SOG. In case you wish to give your own abbreviation, you can do so. The text field allows any type of text.
+Par exemple: East Wind sera abrégé en EW. Shades of Green sera abrégé en SOG. Dans le cas ou vous voulez donner votre 
+propre abréviation, vous pouvez, le champ texte accepte n'importe quel caractère.
 
-### Financial Year
+### Année fiscale
 
-Any annual period at the end of which a firm's accounts are made up is called a Financial Year. Some countries have their account year starting from 1st January and some 1st April.
+Toute période annuelle à la fin de laquelle les comptes d'une entreprise sont constitués est appelé un exercice. Certains 
+pays ont leur compte l'année à partir du 1er Janvier et certains 1er Avril.
 
-The end date will be set automatically
+La date de fin est définie automatiquement.
 
-{next}
+{suite}
