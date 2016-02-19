@@ -1,12 +1,12 @@
-# Step 3: User Details
+# Etape 3: Detail de l'utilisateur
 
-Enter Users Profile Details like Name, User ID and preferred password.
+Entrez les details du profil comme le nom, le login et le mot de passe.
 
 <img alt="User" class="screenshot"
 src="{{docs_base_url}}/assets/img/setup-wizard/step-3.png">
 
 ---
 
-Note: Add your own photograph, not your company's
+Note: Ajoutez votre photo, pas celle de votre entreprise.
 
-{next}
+{suite}
