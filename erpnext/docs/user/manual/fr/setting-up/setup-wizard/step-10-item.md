@@ -5,7 +5,7 @@ Dans cette étape finale, définissez quelques articles que vous vendez ou achet
 <img alt="Add Items" class="screenshot"
 src="{{docs_base_url}}/assets/img/setup-wizard/step-10.png">
 
-Saisissez le type d'article (produit ou service)  ainsi que son unité de mesure. Ne vous inquitez pas, vous pourrez éditer
+Saisissez le type d'article (produit ou service) ainsi que son unité de mesure. Ne vous inquietez pas, vous pourrez éditer
 les informations par la suite.
 
 ---
