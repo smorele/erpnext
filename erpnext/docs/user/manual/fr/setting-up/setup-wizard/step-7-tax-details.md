@@ -1,22 +1,30 @@
-# Step 6: Tax Details
+# Etape 6: Les taxes
 
-Enter any three types of taxes which you regularly pay. This wizard will create a tax master which will calculate the taxes as per the tax-type.
+Entrez les trois types de taxes que vous payez régulièrement. Cet assistant va créer un modèle fiscale qui calculera les 
+taxes selon le type d'impôt.
 
 <img alt="Tax Details" class="screenshot"
 src="{{docs_base_url}}/assets/img/setup-wizard/step-7.png">
 
-Just set the tax name and the standard percentage levied.
+Il suffit de renseigner le nom de l'impôt et le pourcentage imposé.
 
 ---
 
-Some examples of tax types are given below.
+Quelques exemples de taxes sont présentés ci-dessous.
 
-#### VAT
+#### TVA
 
-A value added tax (VAT) is a form of consumption tax. From the perspective of the buyer, it is a tax on the purchase price. From that of the seller, it is a tax only on the value added to a product, material, or a service. From an accounting point of view, by the stage of its manufacture or distribution. The manufacturer remits to the government the difference between these two amounts, and retains the rest for themselves to offset the taxes they had previously paid on the inputs.
+La taxe sur valeur ajoutée (TVA) est une taxe sur la consommation. D'un point de vue de l'acheteur, c'est une taxe sur 
+le prix d'achat. Pour le vendeur, c'est une taxe sur la valeur ajoutée du produit ou du service. D'un point de vu comptable
+, par la différence entre la fabrication et la distribution. Le producteur remet au gouvernement la différence entre ces 
+deux montants et conserve le reste pour lui-même pour equilibrer avec les taxes qu'il a au préalable payé sur les 
+matieres premieres.
 
-The purpose of VAT is to generate tax revenues to the government similar to the corporate income tax or the personal income tax. For Example: When you shop at a departmental store and avail discount on the products, the store charges you 5% extra on the total bill as the VAT.
 
-To setup VAT in the setup wizard , simply enter the percentage amount levied by your government. To setup VAT at a later stage read [setting-up-taxes]({{docs_base_url}}/user/manual/en/setting-up/setting-up-taxes.html)
+Le but de la TVA est de générer des recettes fiscales au gouvernement semblable à l'impôt sur les sociétés ou de l'impôt 
+sur le revenu. Par exemple: Lorsque vous achetez dans un magasin la boutique vous facture un pourcentage supplémentaire sur la facture totale c'est la TVA.
 
-{next}
+Pour configurer la TVA dans l'assistant de configuration, il suffit d'entrer le montant du pourcentage perçu par votre 
+gouvernement. Pour configurer la TVA plus tard, lisez [la configuration des taxes]({{docs_base_url}}/user/manual/fr/setting-up/setting-up-taxes.html)
+
+{suite}
