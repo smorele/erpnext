@@ -1,16 +1,17 @@
-# Step 9: Item Names
+# Etape 9: Vos articles
 
-In this final step, please enter the names of the Items you buy or sell.
+Dans cette étape finale, définissez quelques articles que vous vendez ou achetez.
 
 <img alt="Add Items" class="screenshot"
 src="{{docs_base_url}}/assets/img/setup-wizard/step-10.png">
 
-Please set the group of the item (Product / Service) and unit of measure. Don't worry you will be able to edit all of this later.
+Saisissez le type d'article (produit ou service)  ainsi que son unité de mesure. Ne vous inquitez pas, vous pourrez éditer
+les informations par la suite.
 
 ---
 
-## Thats it!
+## C'est tout!
 
-Once you are done with the setup wizard you will see the familiar desktop page.
+Une fois que vous avez fini avec la configuration, vous retrouverez la page d'accueil d'ERPNext.
 
-{next}
+{suite}
