@@ -1,6 +1,6 @@
-# Step 7: Customers
+# Etape 7: Les clients
 
-Enter your Customer names and the contact person from that organisation.
+Entrez les noms de vos clients avec la personne à contacter dans l'entreprise.
 
 
 <img alt="Customers" class="screenshot"
@@ -8,16 +8,18 @@ src="{{docs_base_url}}/assets/img/setup-wizard/step-8.png">
 
 ---
 
-#### Difference between a customer name and a contact name
+#### Différente entre le nom du client et le nom du contact
 
-A customer name is the name of the organisation and a contact name is the name of the user who is operating the ERPNext system.
+Le nom du client c'est le nom de l'entreprise et le nom du contact, celui de la personne qui est disponible en tant que 
+contact.
 
-For Example: If American Power Mills is an organisation name and their founder Shiv Agarwal has installed ERPNext on his system. Then,
+Par exemple: Si "American Power Mills" est le nom de l'entreprise et le nom de la personne qui peut etre contactée est
+"Jean Humbert" alors la configuration dans ERPNext sera:
 
-Customer Name: American Power Mills
+Nom de l'entreprise: American Power Mills
 
-Contact Name:  Shiv Agarwal
+Nom du contact: Jean Humbert
 
-To understand Customer in detail visit [Customer Details]({{docs_base_url}}/user/manual/en/CRM/customer.html)
+Pour plus d'informations sur les clients, lisez la documentation sur [la configuration des clients]({{docs_base_url}}/user/manual/fr/CRM/customer.html)
 
-{next}
+{suite}
