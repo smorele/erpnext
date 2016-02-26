@@ -1,7 +1,8 @@
-# Settings
+# Paramètres
 
-In `Setup > Settings` you will find ways to manage your system settings like defaults, number and currency formats, global session timeout settings etc.
+Dans `Setup > Settings` vous trouverez la possibilité de configurer les paramètres systeme de votre systeme comme
+les paramètres par défaut, les formats des nombres et des devises, les paramètres de sessions etc.
 
-### Topics
+### Sujets
 
-{index}
+{suite}
