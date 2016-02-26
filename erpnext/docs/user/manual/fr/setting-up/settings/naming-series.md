@@ -1,48 +1,44 @@
-# Naming Series
+# Conventions de nommage
 
 ### 1. Introduction
 
-Data records are broadly classified as “Master” or “Transaction”. A master
-record is a record that has a “name”, for example a Customer, Item, Supplier,
-Employee etc. A Transaction is a record that has a “number”. Examples of
-transactions include Sales Invoices, Quotations etc. You make transactions
-against a number of master records.
+Les enregistrements sont généralement des données principales ou “Transaction”. Une données principale est un enregistrement
+qui a un nom par exemple, un client, un fournisseur, un employé et. Une transaction est un enregistrement qui a un numéro.
+Les devis, les factures sont par exemple des transactions. On créer des transactions grâce aux données principales.
 
-ERPNext allows you to make prefixes to your transactions, with each prefix
-forming its own series. For example a series with prefix INV12 will have
-numbers INV120001, INV120002 and so on.
+ERPNext autorise à préfixer les transactions, chaque préfixe formant une série. Par exemple, des transactions de la serie
+INV12 auront comme numéro INV120001, INV120002 etc.
 
-You can have multiple series for all your transactions. It is common to have a
-separate series for each financial year. For example in Sales Invoice you
-could have:
+Vous pouvez avoir plusieurs seriees par transaction. C'est par exemple commun d'avoir des series séprarées pour
+chaque année fiscale. Par exemple dans les factures de ventes vous pourriez avoir:
 
   * INV120001
   * INV120002
   * INV-A-120002
 
-etc. You could also have a separate series for each type of Customer or for
-each of your retail outlets.
+etc. Vous pourriez aussi avoir une serie pour chaque type de client ou pour vos différents points de vente.
 
-### 2. Managing Naming Series for Documents
+### 2. Gérer les noms pour les documents
 
-To setup a series, go to:
+Pour configurer une série, rendez-vous sur:
 
 > Setup > Tools > Update Numbering Series
 
-In this form,
+Dans ce formulaire,
 
-  1. Select the transaction for which you want to make the series The system will update the current series in the text box.
-  2. Edit the series as required with unique prefixes for each series. Each prefix must be on a new line.
-  3. The first prefix will be the default prefix. If you want the user to explicitly select a series instead of the default one, check the “User must always select” check box.
+  1. Selectionnez la transaction pour laquelle pour voulez créer la serie. Le système va mettre à jour la serie courante 
+  dans le champs texte.
+  2. Editez les series avec un prefixe unique pour chaque série. Chaque préfixe doit être sur une nouvelle ligne.
+  3. Le premier préfixe contiendra le prefixe par defaut. Si vous voulez que l'utilisateur choisisse une série précise plutot 
+  que celle par defaut, cochez la case “User must always select”.
 
-You can also update the starting point of a series by entering the series
-name and the starting point in the “Update Series” section.
+Vous pouvez aussi mettre à jour le debut d'une série en entrant le nom de la série et le point de départ dans la section “Update Series”.
 
-### 3. Example
+### 3. Exemple
 
-See how to set the naming series
+Voici comment configurer la série de nommage.
 
 <img class="screenshot" alt="Naming Series" src="{{docs_base_url}}/assets/img/setup/settings/naming-series.gif">
 
-{next}
+{suite}
 
