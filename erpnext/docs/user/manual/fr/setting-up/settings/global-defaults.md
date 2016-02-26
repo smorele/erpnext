@@ -1,11 +1,11 @@
-# Global Defaults
+# Variables par défaut
 
-You can set default values for your documents from Global Defaults
+Vous pouvez configurer des variables par défaut depuis le menu
 
 > Setup > Settings > Global Defaults
 
-Whenever a new document is created, these values will be set as default.
+Dans ce cas, quand un document est créé, ces valeurs seront utilisées par défaut.
 
 <img class="screenshot" alt="Global Defaults" src="{{docs_base_url}}/assets/img/setup/settings/global-defaults.png">
 
-{next}
+{suite}
