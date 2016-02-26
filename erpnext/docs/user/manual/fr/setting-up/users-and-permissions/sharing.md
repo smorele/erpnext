@@ -1,9 +1,9 @@
-# Sharing
+# Partage
 
-In addition to user and role permissions, you can also Share a document with another user if you have sharing rights.
+En plus des permissions sur les rôles et les utilisateurs, vous pouvez aussi partager un document avec un autre utilisateur si vous en avez le droit.
 
-To share a document, open the document, click on the "+" icon under sharing and select the user
+Pour partager un document, ouvrez ce document, cliquez sur l'icone "+" et sélectionnez l'utilisateur
 
 <img class="screenshot" src="{{docs_base_url}}/assets/img/setup/users/share.gif">
 
-{next}
+{suite}
