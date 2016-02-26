@@ -85,4 +85,4 @@ L'application de demande de congès est un bon **exemple** qui utilise toutes le
 
 <img class="screenshot" alt="Let HR User delegate access to Leave Applications by checking 'Set User Permissions'. This will allow HR User to access User Permissions Manager for 'Leave Application'" src="{{docs_base_url}}/assets/img/users-and-permissions/setting-up-permissions-hr-user-role.png">
 
-{next}
+{suite}
