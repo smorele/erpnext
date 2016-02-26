@@ -1,15 +1,16 @@
-# Show or Hide Modules
+# Afficher ou cacher des modules
 
-You can globally switch off certain desktop module via:
+Vous pouvez de manière générale desactiver certains modules via:
 
 > Setup > Settings > Show or Hide Modules
 
-For example if you are in the services business, you want to hide the Manufacturing Module, you can do this via **Show or Hide Modules**
+Par exemple, si vous êtes dans le service business, si vous souhaitez cacher le module de production, vous pouvez le
+faire via **Afficher ou cacher des Modules**
 
-### Example
+### Exemple
 
-Check / uncheck the items to show / hide.
+Cochez / décochez les éléments pour afficher / cacher.
 
 <img class="screenshot" alt="Module Settings" src="{{docs_base_url}}/assets/img/setup/settings/show-hide-modules.png">
 
-{next}
+{suite}
