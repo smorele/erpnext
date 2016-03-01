@@ -24,6 +24,6 @@ Vous pouvez l'utiliser sur **toutes** les plateformes y compris Microsoft Window
 
 ### 4\. Installer ERPNext sur votre machine Unix/Linux/Mac
 
-Si vous êtes familiers avec l'installation d'applications sur les plateformes *nix, lisez les instructions d'installation en utilisant [Frappe Bench](https://github.com/frappe/frappe-bench).
+Si vous êtes familiers avec l'installation d'applications sur les plateformes *nix, lisez les instructions d'installation en utilisant [Frappe Bench](https://github.com/frappe/bench).
 
 {suite}
